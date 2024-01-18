@@ -57,8 +57,8 @@
   background-color: yellow;
   margin: 10px;
   padding: 5px;
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 10px;
+  padding-right: 10px;
   width: fit-content;
   border-radius: 3px;
   word-break: break-all;
@@ -74,7 +74,7 @@
   border-top-color: yellow;
   display: block;
   position: absolute;
-  margin-left: 2px;
+  margin-left: -5px;
 }
 
  .msg_center{
@@ -91,6 +91,7 @@
 .msg_box{
   position: relative;
   display: flex;
+  margin: 5px;
 }
 
 .login_wrapper{
@@ -140,7 +141,7 @@ button:hover{
 }
 
 .nickname_style{
-  font-size: x-small;
+  font-size: 9px;
   position: absolute;
   top: -5px;
   left: 5px;
